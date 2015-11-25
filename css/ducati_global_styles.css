@@ -45,12 +45,16 @@ body{
   height: 60px;
 }
 #logo{
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height:70px;
 }
 #logo:hover{
   image-resolution: from-image;
    src: url("../img/ducati_logo_red_.png");
+}
+.logogrid{
+  height: 100px;
+  padding:20px 0px;
 }
 #bgtransparent{
   width: 190px;
