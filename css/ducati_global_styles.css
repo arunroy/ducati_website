@@ -164,7 +164,7 @@ ul li{
   text-transform: uppercase;
 }
 .heroelements .grid_4 img{
-  padding: 57px 0px;
+  padding: 5px 0px;
 }
 
 .mainheroelement{
@@ -263,4 +263,10 @@ padding: 5px 0px;
 .newbiketext{
   text-align: justify;
   padding: 10px;
+}
+
+.hiddentext{
+  visibility: hidden;
+  font-style: italic;
+  display: none;
 }
