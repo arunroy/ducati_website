@@ -1,14 +1,22 @@
 <!DOCTYPE html>
+<!--  Author: Arun Karthic R-->
+<!-- arun.karthic@wipro.com
+HTML CSS Practice website
+Date Created : 23rd November 2015 -->
+<!-- ducati services page -->
 <html>
       <head>
+        <!-- stylesheets for 960 grid framework -->
         <link rel="stylesheet" href="../css/reset.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="../css/text.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="../css/960_12_col.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="../css/gridDemostyle.css" media="screen" title="no title" charset="utf-8">
+        <!-- custom css for the website -->
+        <link rel="stylesheet" href="../css/ducati_global_styles.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Lobster|Play">
-        <title>Ducati-Services</title>
+        <title>Ducati-Portfolio</title>
       </head>
 <body>
+  <!-- Javascript for facebook like button -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -19,21 +27,25 @@
   }(document, 'script', 'facebook-jssdk'));</script>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
   </script>
-
+  <!-- The main wrapper which holds the entire content of the page -->
     <div class="container_12 wrap">
+            <!-- will contain the entire area for menu and the page header including the ducati logo-->
             <div class="menuSpace">
                 <div class="title container_12">
                   <div class="grid_3">
                       <img id="logo" src="../img/ducati_logo_red.png" alt="" />
                   </div>
                   <div class="grid_6">
+                    <!-- the header title image -->
                       <img src="../img/ducati_logo_transparent_thick.png" alt="" />
                   </div>
                   <div class="grid_3">
+                    <!-- the faded ducati xdiavel tank image for styling -->
                     <img id="bgtransparent" src="../img/xdiavel.png" alt="" />
                   </div>
                 </div>
 
+                <!-- the container for menu navigation -->
                 <div class="menuBar">
                     <ul>
                       <li><a href="#">bikes</a></li>
@@ -41,13 +53,14 @@
                       <li><a href="#">experience</a></li>
                       <li><a href="#">racing</a></li>
                       <li><a href="../pages/ducati_services.html">services</a></li>
-                      <li><a href="../pages/ducati_portfolio.html">portfolio</a></li>
+                      <li><a href="#">portfolio</a></li>
                       <li><a href="#">gallery</a></li>
                       <li><a href="#">news</a></li>
                     </ul>
                 </div>
             </div>
 
+            <!-- the subheader section of the page. this denotes which page we are currently on -->
             <div class="subheader">
               <div class="grid_12">
                 <p class="subheaderpane_header">
@@ -59,16 +72,17 @@
 
             <div class="container_12">
                   <div class="grid_4">
-                    <img src="../img/ducati_tuning.jpg" alt="Engine Tuning" />
+                    <img src="../img/ducati_tuning.jpg" alt="Services Image 1" />
                   </div>
                   <div class="grid_4">
-                    <img src="../img/ducatiMaintenance.jpg" alt="Engine Tuning" />
+                    <img src="../img/ducatiMaintenance.jpg" alt="Services Image 2" />
                   </div>
                   <div class="grid_4">
-                    <img src="../img/hdService.jpg" alt="Engine Tuning" />
+                    <img src="../img/hdService.jpg" alt="Services Image 3" />
                   </div>
             </div>
 
+            <!-- services features -->
             <div class="container_12 displaygrids">
                 <div class="grid_4">
                   <h4>why choose us</h4>
@@ -102,6 +116,7 @@
                 </div>
             </div>
 
+            <!-- Main hero element for displaying genuine spare parts -->
             <div class="mainheroelement container_12">
               <div class="grid_12">
                 <h2 class="mainheroelementheader">
@@ -186,6 +201,7 @@
                     </div>
               </div>
 
+              <!-- the container for the footer of the page -->
               <div class="footer">
                      <footer>
                           <div class="container_12">
@@ -195,9 +211,11 @@
                               </div>
                               <a href="https://twitter.com/DucatiMotor" class="twitter-follow-button" data-show-count="false">Follow @DucatiMotor</a>
                             </div>
+
                             <div class="grid_4 footercenter">
                               <img src="../img/ducati_service.png" alt="" />
                             </div>
+
                             <div class="map grid_4  clearfix">
                               <span class="footercontact">
                                 Contact us@<BR>
@@ -208,7 +226,7 @@
 
                           </div>
                           <p class="footertext">
-                            <a href="#">2015 &copy Turbochargers All rights reserved</a>
+                            <a href="#">2015 &copy reargfx All rights reserved</a>
                           </p>
                      </footer>
                 </div>
